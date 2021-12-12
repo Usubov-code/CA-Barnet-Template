@@ -1,0 +1,283 @@
+.owl-carousel .custom .custom-item img {
+  position: relative;
+}
+
+.owl-carousel .custom .custom-item .icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.owl-carousel .custom .custom-item .icons i {
+  color: white;
+}
+
+.owl-carousel .custom .custom-item:hover .icons {
+  opacity: 1;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.contact {
+  line-height: 28.8px;
+  text-align: left;
+}
+
+body header nav .header-top {
+  background-color: #3648b2;
+  padding: 7px;
+}
+
+body header nav .header-top .container .row .col .social a i {
+  margin-left: 20px;
+  color: white;
+}
+
+body header nav .header-top .container .row .col .contact .number a {
+  text-decoration: none;
+  color: white;
+}
+
+body header nav .header-top .container .row .col .contact .number a i {
+  color: #ff4747;
+}
+
+body header nav .header-top .container .row .col .contact .email a {
+  text-decoration: none;
+  color: white;
+}
+
+body header nav .header-top .container .row .col .contact .email a i {
+  color: #ff4747;
+}
+
+body header nav .header-upper {
+  padding: 22px;
+}
+
+body header nav .header-upper .container .row .col-3 .logo {
+  padding-top: 3px;
+  display: inline;
+}
+
+body header nav .header-upper .container .row .col-3 .logo a img {
+  vertical-align: middle;
+}
+
+body header nav .header-upper .container .row .col-9 .navbar ul li {
+  margin-left: 20px;
+}
+
+body header nav .header-upper .container .row .col-9 .navbar ul li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body header nav .header-upper .container .row .col-9 .navbar ul li .btn {
+  color: white;
+  border: 1px solid #ff4747;
+  background-color: #ff4747;
+  border-radius: 22px;
+}
+
+main {
+  position: relative;
+}
+
+main .page-blog {
+  background-image: url(/img/banner.jpg);
+  height: 350px;
+  background-position: center center;
+  background-size: cover;
+}
+
+main .page-blog .blog-filigran {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+main .page-blog .blog .blog-content {
+  z-index: 1;
+  position: absolute;
+}
+
+main .page-blog .blog .blog-content h1 {
+  padding-top: 10rem;
+  font-size: 45px;
+  line-height: 1em;
+  font-weight: 800;
+  margin-bottom: 11px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+main .page-blog .blog .blog-content ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.shop {
+  padding-top: 100px;
+}
+
+.shop .shop-content {
+  margin-left: 35px;
+}
+
+.shop .shop-content h4 {
+  font-weight: bold;
+}
+
+.shop .shop-content .price {
+  color: red;
+  font-size: 30px;
+  font-weight: 9000;
+}
+
+.shop .shop-content .shop-description p {
+  color: #808080;
+}
+
+.shop .shop-content .shop-buttons a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  border: 12px solid #ff4747;
+  background-color: #ff4747;
+  border-radius: 22px;
+  line-height: 38.8px;
+}
+
+.shop .shop-content .shop-category span {
+  color: black;
+}
+
+.shop .shop-content .shop-social ul li {
+  margin-left: 50px;
+}
+
+.shop .shop-content .shop-social ul li a i {
+  color: #848484;
+  border: 1px solid #848484;
+  border-radius: 50%;
+  line-height: 16px;
+  font-size: 16px;
+}
+
+.product {
+  margin-top: 50px;
+}
+
+.product .product-buttons .button {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ff4747;
+  background-color: #ff4747;
+  border-radius: 22px;
+  line-height: 28.8px;
+  font-size: 16px;
+  padding: 9px 25px;
+  font-weight: 400;
+}
+
+.product .product-buttons .buttons {
+  text-decoration: none;
+  color: #1a224d;
+  border: 1px solid #848484;
+  background-color: #ffffff;
+  border-radius: 22px;
+  line-height: 28.8px;
+  font-size: 16px;
+  padding: 9px 25px;
+  font-weight: 300;
+}
+
+.product .product-description {
+  margin-top: 75px;
+}
+
+.product .product-description h3 {
+  color: #1a224d;
+  font-weight: bold;
+}
+
+.product .product-description p {
+  color: #848484;
+}
+
+.slide-title {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.slide-title h1 {
+  color: #1a224d;
+  font-weight: bold;
+}
+
+.owl-carousel .custom .custom-item .over-lay h5 {
+  color: #1a224d;
+}
+
+.owl-carousel .custom .custom-item .over-lay span {
+  color: #1a224d;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.outer-footer {
+  position: relative;
+  background-color: #ff4747;
+  padding: 40px 50px 11px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -80px;
+}
+
+.main-footer {
+  background-image: url(/img/footer.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main-footer .footer-left {
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
